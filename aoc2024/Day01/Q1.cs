@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day1;
+namespace aoc2024.Day01;
 
 internal static class Q1
 {
