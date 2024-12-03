@@ -1,11 +1,12 @@
 ﻿using System;
+namespace aoc2024;
 
-namespace AdventOfCode2024
+public class Program
 {
-	public class Program
+	public static void Main()
 	{
-		public static void main()
-		{
-			return;
-		}
+		
 	}
+	{
+	}
+}

@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Day1": {
-      "commandName": "Project",
-      "workingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\alexis\\Alexis (WSL)\\env\\projects\\AdventOfCode2024\\Day1"
-    }
-  }
-}

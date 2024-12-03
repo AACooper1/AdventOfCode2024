@@ -1,12 +1,12 @@
 ﻿using System;
-namespace Day1;
+namespace aoc2024.Day01;
 
-class InputParser
+internal class Solution
 {
-    public static (List<int> left, List<int> right) ParseInput(string filepath)
+    private static (List<int> left, List<int> right) ParseInput(string filepath)
     {
         String[] input_text = File.ReadAllLines(filepath);
-        List<int> left  = new List<int>();
+        List<int> left = new List<int>();
         List<int> right = new List<int>();
 
         foreach (String line in input_text)
@@ -25,13 +25,10 @@ class InputParser
 
         return (left, right);
     }
-}
-class Program
-{
-    static void Main()
+    public static void Run()
     {
-        String filepath = "input.txt";
-        (List<int> left, List<int> right) parsedInput = InputParser.ParseInput(filepath);
+        String filepath = "Day01/input.txt";
+        (List<int> left, List<int> right) parsedInput = ParseInput(filepath);
 
         int Q1Result = Q1.CalculateQ1(parsedInput);
         int Q2Result = Q2.CalculateQ2(parsedInput);
